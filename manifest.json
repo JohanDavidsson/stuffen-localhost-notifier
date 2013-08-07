@@ -1,0 +1,14 @@
+{
+    "name": "Stuffen Localhost Notifier",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Displays a notification if you are browsing localhost.",
+    "content_scripts": [
+        {
+          "matches": ["http://localhost/*"],
+          "css": ["stuffen.localhost.notifier.css"],
+          "js": ["stuffen.localhost.notifier.js"],
+          "run_at" : "document_end"
+        }
+    ]
+}

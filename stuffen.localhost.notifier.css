@@ -1,0 +1,27 @@
+#localhost-notifier {
+    background: -webkit-linear-gradient(top, #FFD557, #D8AA1D);
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: pointer;
+    border-bottom: 1px solid #b68d0e;
+
+    padding: 6px 10px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+
+    color: rgba(0,0,0,0.6);
+    font-family: arial;
+    font-weight: normal;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.1);
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#localhost-notifier div {
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
